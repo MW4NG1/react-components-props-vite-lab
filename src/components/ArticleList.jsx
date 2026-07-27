@@ -1,4 +1,5 @@
 import React from "react";
+// Import the Article component
 import Article from "./Article";
 // ArticleList component receives the post array
 function ArticleList(props) {

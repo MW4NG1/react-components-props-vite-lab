@@ -1,7 +1,7 @@
 import React from "react";
 import blogData from "../data/blog";
 
-// Import the components
+// Import the child components
 import Header from "./Header";
 import About from "./About";
 import ArticleList from "./ArticleList";
