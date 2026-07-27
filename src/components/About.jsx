@@ -4,7 +4,10 @@ function About(props) {
   return (
     <aside>
       {/* Displays the blog logo */}
-      <img src={props.image} alt="blog logo" />
+      <img
+        src={props.image || "https://via.placeholder.com/215"}
+        alt="blog logo"
+      />
       {/* Displays the blog description */}
       <p>{props.about}</p>
     </aside>
