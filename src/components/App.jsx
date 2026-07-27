@@ -14,12 +14,9 @@ function App() {
       {/* Display the Header component */}
       <Header name={blogData.name} />
       {/* Display the About component */}
-    <About
-    image={blogData.image}
-    about={blogData.about}
-    />
-    {/* Display the ArticleList component */}
-    <ArticleList posts={blogData.posts} />
+      <About image={blogData.image} about={blogData.about} />
+      {/* Display the ArticleList component */}
+      <ArticleList posts={blogData.posts} />
     </div>
   );
 }
