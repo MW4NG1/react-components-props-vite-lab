@@ -59,4 +59,4 @@ A screenshot of the completed site
 
 ## Author
 
-Created as part of the React Components and Props Lab By Michael Mwangi
+Created as part of the React Components and Props Lab.
