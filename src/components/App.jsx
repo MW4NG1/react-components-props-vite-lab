@@ -11,8 +11,11 @@ console.log(blogData);
 function App() {
   return (
     <div className="App">
+      {/* Display the Header component */}
       <Header name={blogData.name} />
+      {/* Display the About component */}
     <About />
+    {/* Display the ArticleList component */}
     <ArticleList />
     </div>
   );
