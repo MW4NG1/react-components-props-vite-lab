@@ -1,9 +1,11 @@
 import React from "react";
 // Header component
-function Header () {
+function Header(props) {
     return (
-    <div>Header
-
-    </div>);
+    <Header>
+        {/* Display the blog name */}
+        <h1>{props.name}</h1>
+    </Header>
+    );
 }
 export default Header;
