@@ -7,7 +7,7 @@ function Article(props) {
       <h3>{props.title}</h3>
 
       {/* Displays the article date */}
-      <small>{props.date}</small>
+      <small>{props.date || "January 1, 1970"}</small>
 
       {/* Displays the article preview */}
       <p>{props.preview}</p>
